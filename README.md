@@ -13,7 +13,7 @@ There are instructions for two different databases with their respective front-e
 Nex we need to install docker and make sure that it is running properly on our computer.
 
 ### Install Docker for your operating system. 
-[Docker Desktop](https://www.docker.com/products/docker-desktop/)
+Start page: [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
  To test your Docker installation try the Hello-World example ad described here
 [https://hub.docker.com/_/hello-world](https://hub.docker.com/_/hello-world)
@@ -43,6 +43,9 @@ To generate this message, Docker took the following steps:
 ```
 
 Next we will install the NoSQL database Elasticsearch together with its dashboard component called Kibana.
-[Install Elastic-Kibana](./ELK/INSTALL_ELASTIC.md)
+[Install Elastic-Kibana and Load Data](./ELK/README.md)
+
+We will also demonstrate another NoSQL database MongoDB and the UI component for interfacing with Mongo called Compass
+[Install MongoDB and Load Data](./Mongo/README.md)
 
 
