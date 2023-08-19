@@ -67,10 +67,10 @@ The output will look like this:
 
 You will need the Kibana enrollment token in order to connect Kibana to the Elasticsearch Server
 
-<ins>Note 1:</ins> If you don't see the output above but rather some error messages then 
+<ins>Note 1:</ins> If you don't see the output above but rather some error messages  of sort ` max file descriptors [1024] for elasticsearch process is too low, increase to at least [65535]` then 
 additional setup is needed and is documented at this page
 
-[https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html)
+[https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html#docker-prod-prerequisites](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html#docker-prod-prerequisites)
 Find the instructions for your respective operating system
 
 <ins>Note 2:</ins>
